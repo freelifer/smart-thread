@@ -19,12 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
-
--keep class freelifer.smart.thread.HttpOrOkHttpClient {
-    public *;
-}
--keep class freelifer.smart.thread.HttpOrOkHttpClient$HttpRequest* {*;}
--keep class freelifer.smart.thread.HttpOrOkHttpClient$HttpJsonRequest* {*;}
--keep class freelifer.smart.thread.HttpOrOkHttpClient$HttpResponse* {*;}
--keep interface freelifer.smart.thread.HttpOrOkHttpClient$Method* {*;}
--keep interface freelifer.smart.thread.HttpOrOkHttpClient$Statistics* {*;}
